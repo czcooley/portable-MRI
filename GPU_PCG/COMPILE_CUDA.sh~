@@ -1,0 +1,4 @@
+
+
+nvcc -ptx --fast-math forw_mod_fully3D_cudaKernel_v3.cu
+nvcc -ptx --fast-math forw_mod_fully3D_cudaKernel_TRANSP_v3.cu
