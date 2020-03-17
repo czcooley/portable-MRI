@@ -5,7 +5,7 @@
  - [System Requirements](#system-requirements)
  - [Installation Guide](#installation-guide)
  - [License](#license)
- - [Issues](https://github.com/neurodata/mgcpy/issues)
+
 
  # Overview
  ``portable-MRI`` contains MATLAB code for generalized reconstruction and processing of MRI data generated with a portable MRI scanner. The portable MRI scanner has a built-in (always on) readout gradient. 3D RARE sequences used with phase encoding in the phase-encoding in 2 dimensions. The input data to the reconstruction code is a .mat file containing raw phase-encoded spin-echo train data.
