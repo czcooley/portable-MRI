@@ -34,14 +34,16 @@ end
 
 figure;
 subplot(2,1,1);
-mosaic1(abs(image_all),2,5);
+mosaic1(abs(image_all(:,:,2:end)),2,5);
 caxis([0, 5]);
-axis equal
+axis equal;
+title('original recon');
 subplot(2,1,2);
 title(['theshold = ',num2str(thresh),', disksize = ',num2str(disksize)]);
 mosaic1(im_corr,2,5);
 caxis([0, 2.5])
 axis equal
+title('intensity corrected');
 
 
 

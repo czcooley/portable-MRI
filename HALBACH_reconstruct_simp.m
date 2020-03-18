@@ -18,8 +18,8 @@ Gxname = 'Gx_allcomps_noHF_seq16_interp2_191011'; %% matrix vector components
 BW= 100e3;                  %%acquisition bandwidth
 FOVy = 0.22;                %%recon FOV (m) in YZ (axial) plane
 FOVz = 0.18;                %%recon FOV (m) in YZ (axial) plane
-N_recony = 1*FOVy*200;     %%recon matrix size in YZ (axial) plane
-N_reconz = 1*FOVz*200;     %%recon matrix size in YZ (axial) plane
+N_recony = 2*FOVy*1000;     %%recon matrix size in YZ (axial) plane
+N_reconz = 2*FOVz*1000;     %%recon matrix size in YZ (axial) plane
 N_reconx = 1;
 
 niters = 5;        %% PCG iteration number
@@ -133,4 +133,4 @@ end
 figure; mosaic1(abs(image_all),3,5); colormap gray;
 caxis([0 5]); axis equal
 
-% save('T2_images_HS201907_v.mat', 'image_all');
+save('test_T2_images.mat', 'image_all');
