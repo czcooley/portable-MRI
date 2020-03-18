@@ -39,7 +39,15 @@ Parallel Computing Toolbox
  - run `Halbach_reconstruct_simp.m` from top level folder to generate images from raw data
  - run `intensity_correction.m` to normalize the image intensity of the partitions
 
+ ## raw spin-echo train data
+ ![Echos](https://github.com/czcooley/portable-MRI/blob/master/figures/echos.png)
 
+ ## reconstructed images
+ ![Reconstructed Images](https://github.com/czcooley/portable-MRI/blob/master/figures/recon_image.png)
+
+ ## intensity corrected images
+ - same as Figure 6 (S3 T2) in ?????
+ ![Processed Images](https://github.com/czcooley/portable-MRI/blob/master/figures/intensity_corrected.png)
 
 
  # License
